@@ -6300,6 +6300,7 @@
   </style>
   <style>
     @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
     @keyframes fadeIn {
       100% {
         opacity: 1;
@@ -6495,11 +6496,11 @@
       color: white;
     }
 
-    .button i {
+    .button img {
       transition: transform 0.3s;
     }
 
-    .button:hover i {
+    .button:hover img {
       transform: rotate(90deg);
     }
 
@@ -6740,65 +6741,77 @@
       visibility: visible;
     }
 
-    .text111{
+    .text111 {
       margin-right: 100px;
+    }
+
+    .showsxm {
+      display: none;
     }
 
     @media (max-width: 768px) {
       .opener {
-      margin-top: 100px;
-      margin-bottom:30px;
-    }
+        margin-top: 100px;
+        margin-bottom: 30px;
+      }
 
-    #content {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-top: 50px;
-      margin-left:30px;
-      margin-right:20px;
-      font-family: "Raleway";
-    }
+      #content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 20px;
+        font-family: "Raleway";
+      }
 
-    .sxsmheader{
-      display:none;
-    }
+      .sxsmheader {
+        display: none;
+      }
 
-    .about {
-      margin-top: 60px;
-    }
+      .about {
+        margin-top: 60px;
+      }
 
-    .about .text {
-      font-size: 20pt;
-    }
+      .about .text {
+        font-size: 20pt;
+      }
 
-    .about .text-header {
-      font-size: 30pt;
-      color: #e31b6d;
-      align-items: flex-start;
-    }
+      .about .text-header {
+        font-size: 30pt;
+        color: #e31b6d;
+        align-items: flex-start;
+      }
 
-    .skills .text{
-      font-size:15pt;
-      line-height: 20pt;
-    }
+      .skills .text {
+        font-size: 15pt;
+        line-height: 20pt;
+      }
 
-    .contact{
-      margin-left: 50px;
-      margin-right: 50px;
-    }
+      .contact {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
 
-    .text111{
-      margin-right: 0px;
-    }
+      .text111 {
+        margin-right: 0px;
+      }
 
-    .contact .text-header{
-      line-height: 34pt;
-    }
+      .contact .text-header {
+        line-height: 34pt;
+      }
 
-    .work .imgx{
-      display:none;
-    }
+      .work .imgx {
+        display: none;
+      }
+
+      .showsxm {
+        display: flex;
+      }
+
+      .linkx {
+        display: none;
+      }
 
     }
   </style>
@@ -6810,7 +6823,7 @@
     <a class="navbar-brand js-scroll-trigger profilex" href="#profile">
       <span class="d-block d-lg-none"></span>
       <span class="d-block d-lg-none"><span class="white">&lt; </span><span
-      class="highlight headx">AbhashKumar</span><span class="white"> /&gt;</span></span>
+          class="highlight headx">AbhashKumar</span><span class="white"> /&gt;</span></span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2 " src="img/profile.jpg" alt="">
       </span>
@@ -6824,17 +6837,29 @@
         <li class="nav-item namex sxsmheader" style="top: 40px; position: fixed; margin-left:45px"><a class="profilex"
             href="#profile" style="text-decoration:none"><span class="white">&lt; </span><span
               class="highlight headx">AbhashKumar</span><span class="white"> /&gt;</span></a></li>
-        <li class="nav-item">
+        <li class="nav-item linkx">
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item linkx">
           <a class="nav-link js-scroll-trigger" href="#work">Work</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item linkx">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item linkx">
           <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+        <li class="showsxm">
+          <a><img src="img/icons8-about-30.png" width="24" height="24"
+              onclick="aboutx()"></img></a>
+          <hr>
+          <a><img src="img/icons8-work-48.png" width="24" height="24" onclick="workx()"></img></a>
+          <hr>
+          <a><img src="img/icons8-skills-48.png" width="24" height="24" onclick="skillsx()"></img></a>
+          <hr>
+          <a><img src="img/icons8-contact-60.png" width="24" height="24" onclick="contactx()"></img></a>
+          <hr>
+          <hr>
         </li>
         <li class="nav-item sxsmheader" style="bottom: 40px; position: fixed; margin-left:60px">
           <div style="display:flex">
@@ -6862,8 +6887,8 @@
 
       <div class="button page-linkx" dest="about">
         <a style="text-decoration:none; color:white;"
-          href="https://drive.google.com/u/0/uc?id=18ZgS8GB4Sd9KjVta5Fz65rz14gLW1Ie4&export=download">Download Resume <i
-            class="mdi mdi-arrow-right"></i></a>
+          href="https://drive.google.com/u/0/uc?id=18ZgS8GB4Sd9KjVta5Fz65rz14gLW1Ie4&export=download">Download Resume
+          <img src="img/icons8-right-arrow-32 (1).png" width="24" height="24"></img></a>
       </div>
     </div>
 
@@ -7239,9 +7264,57 @@
       alert("Email copied to clipboard");
     }
 
-    $('.navbar-collapse a').click(function(){
-    $(".navbar-collapse").collapse('hide');
-});
+    $('.navbar-collapse a').click(function () {
+      $(".navbar-collapse").collapse('hide');
+    });
+
+    function aboutx() {
+      event.preventDefault();
+
+      // Toggle the visibility of the sections
+      document.querySelector(".opener.flex").style.display = "none";
+      document.querySelector(".work.flex").style.display = "none";
+      document.querySelector(".skills.flex").style.display = "none";
+      document.querySelector(".contact.flex").style.display = "none";
+      document.querySelector(".about.flex").style.display = "flex";
+    }
+
+    function workx(){
+      event.preventDefault();
+
+        // Toggle the visibility of the sections
+        document.querySelector(".opener.flex").style.display = "none";
+        document.querySelector(".about.flex").style.display = "none";
+        document.querySelector(".skills.flex").style.display = "none";
+        document.querySelector(".contact.flex").style.display = "none";
+        document.querySelector(".work.flex").style.display = "grid";
+
+
+        document.querySelector(".page.active").style.display = "none";
+        $(".page").removeClass("active");
+        $(".page[data-page='1']").addClass("active");
+        document.querySelector(".page.active").style.display = "grid";
+    }
+    function skillsx(){
+      event.preventDefault();
+
+        // Toggle the visibility of the sections
+        document.querySelector(".opener.flex").style.display = "none";
+        document.querySelector(".about.flex").style.display = "none";
+        document.querySelector(".skills.flex").style.display = "flex";
+        document.querySelector(".contact.flex").style.display = "none";
+        document.querySelector(".work.flex").style.display = "none";
+    }
+    function contactx(){
+      event.preventDefault();
+
+        // Toggle the visibility of the sections
+        document.querySelector(".opener.flex").style.display = "none";
+        document.querySelector(".about.flex").style.display = "none";
+        document.querySelector(".skills.flex").style.display = "none";
+        document.querySelector(".contact.flex").style.display = "flex";
+        document.querySelector(".work.flex").style.display = "none";
+    }
   </script>
 
 </body>
