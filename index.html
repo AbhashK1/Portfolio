@@ -6740,6 +6740,68 @@
     .emaillink:hover .tooltiptext {
       visibility: visible;
     }
+
+    .text111{
+      margin-right: 100px;
+    }
+
+    @media (max-width: 768px) {
+      .opener {
+      margin-top: 100px;
+      margin-bottom:30px;
+    }
+
+    #content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      margin-left:30px;
+      margin-right:20px;
+      font-family: "Raleway";
+    }
+
+    .sxsmheader{
+      display:none;
+    }
+
+    .about {
+      margin-top: 60px;
+    }
+
+    .about .text {
+      font-size: 20pt;
+    }
+
+    .about .text-header {
+      font-size: 30pt;
+      color: #e31b6d;
+      align-items: flex-start;
+    }
+
+    .skills .text{
+      font-size:15pt;
+      line-height: 20pt;
+    }
+
+    .contact{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+    .text111{
+      margin-right: 0px;
+    }
+
+    .contact .text-header{
+      line-height: 34pt;
+    }
+
+    .work .imgx{
+      display:none;
+    }
+
+    }
   </style>
 
 </head>
@@ -6747,7 +6809,9 @@
 <body id="page-top">
   <nav class="navxyz navbar navbar-expand-lg navbar-dark bg-* fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#profile">
-      <span class="d-block d-lg-none">Menu</span>
+      <span class="d-block d-lg-none"></span>
+      <span class="d-block d-lg-none"><span class="white">&lt; </span><span
+      class="highlight headx">AbhashKumar</span><span class="white"> /&gt;</span></span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2 profilex" src="img/profile.jpg" alt="">
       </span>
@@ -6758,7 +6822,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item namex" style="top: 40px; position: fixed; margin-left:45px"><a class="profilex"
+        <li class="nav-item namex sxsmheader" style="top: 40px; position: fixed; margin-left:45px"><a class="profilex"
             href="#profile" style="text-decoration:none"><span class="white">&lt; </span><span
               class="highlight headx">AbhashKumar</span><span class="white"> /&gt;</span></a></li>
         <li class="nav-item">
@@ -6773,7 +6837,7 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
         </li>
-        <li class="nav-item" style="bottom: 40px; position: fixed; margin-left:60px">
+        <li class="nav-item sxsmheader" style="bottom: 40px; position: fixed; margin-left:60px">
           <div style="display:flex">
             <div style="margin-right:20px"><a style="color:white;" href="https://github.com/AbhashK1" target="_blank"><i
                   class="bi bi-github fa-2x"></i></a></div>
@@ -6791,7 +6855,7 @@
   <div class="containerx" id="content">
     <div class="opener flex">
       <div class="text">
-        Hello, I'm <span class="highlight">Abhash Kumar</span>.
+        Hello, I'm <span class="highlight">Abhash </span><span class="highlight sxsmheader">Kumar</span>.
         <br>
         <span class="highlight">Student </span>| <span class="highlight">Programmer </span> | <span
           class="highlight">FullStack Developer </span>
@@ -6843,7 +6907,7 @@
 
           </div>
 
-          <div class="grid-item">
+          <div class="grid-item imgx">
             <div>
               <image src="img/gardengrove.png" width="600px" height="400px"></image>
             </div>
@@ -6877,7 +6941,7 @@
 
           </div>
 
-          <div class="grid-item">
+          <div class="grid-item imgx">
             <div>
               <image src="img/chatbot.png" width="600px" height="400px"></image>
             </div>
@@ -6909,7 +6973,7 @@
 
           </div>
 
-          <div class="grid-item">
+          <div class="grid-item imgx">
             <div>
               <image src="img/property.png" width="600px" height="400px"></image>
             </div>
@@ -6943,7 +7007,7 @@
 
           </div>
 
-          <div class="grid-item">
+          <div class="grid-item imgx">
             <div>
               <image src="img/imgdesc.png" width="600px" height="400px"></image>
             </div>
@@ -6975,7 +7039,7 @@
 
           </div>
 
-          <div class="grid-item">
+          <div class="grid-item imgx">
             <div>
               <image src="img/face.png" width="600px" height="400px"></image>
             </div>>
@@ -7004,7 +7068,7 @@
     </div>
 
     <div class="contact flex">
-      <div class="text" style="margin-right: 100px;">
+      <div class="text text111">
         <div class="text-header">
           Want to get in touch? Mail me <span onclick="myFunction()" class="emaillink">here <span
               class="tooltiptext">Tooltip text</span></span>.
