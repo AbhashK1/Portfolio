@@ -6807,12 +6807,12 @@
 
 <body id="page-top">
   <nav class="navxyz navbar navbar-expand-lg navbar-dark bg-* fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#profile">
+    <a class="navbar-brand js-scroll-trigger profilex" href="#profile">
       <span class="d-block d-lg-none"></span>
       <span class="d-block d-lg-none"><span class="white">&lt; </span><span
       class="highlight headx">AbhashKumar</span><span class="white"> /&gt;</span></span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2 profilex" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2 " src="img/profile.jpg" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -7238,6 +7238,10 @@
       navigator.clipboard.writeText("abhash.kr99@gmail.com");
       alert("Email copied to clipboard");
     }
+
+    $('.navbar-collapse a').click(function(){
+    $(".navbar-collapse").collapse('hide');
+});
   </script>
 
 </body>
