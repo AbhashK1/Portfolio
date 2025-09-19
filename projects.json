@@ -1,0 +1,70 @@
+{  
+  "data": [
+    {
+      "title": "Verbo",
+      "jpg": "./images/verbo.jpeg",
+      "avif": "./images/verbo.avif",
+      "webp": "./images/verbo.webp",
+      "text": "A AI powered document query tool that ingests PDFs and images, extracts text with OCR, and uses advanced NLP (Transformers, Stanza) for insights like keywords, entities, sentiment, and summaries. It powers fast, accurate search with semantic embeddings (Sentence-Transformers + FAISS) and enhances results using a RAG pipeline, delivering precise, context-aware answers and structured document insights.",
+      "buttons": [
+        {
+          "href": "https://github.com/AbhashK1/Verbo",
+          "aria": "github",
+          "icon": "GITSVG"
+        }
+      ]
+    },
+    {
+      "title": "Garden Grove",
+      "jpg": "./images/gg.jpeg",
+      "avif": "./images/gg.avif",
+      "webp": "./images/gg.webp",
+      "text": "A comprehensive platform for managing a vegetable market system with authentication, secure payments, cart management, and real-time tracking of inventory, sales, and customer data. Built with a user-friendly React frontend and a robust Node.js + Express backend managing MongoDB inventory, it also integrates a Flask-based scraper for live vegetable prices in India and an LSTM model (95%+ accuracy) for price forecasting",
+      "buttons": [
+        {
+          "href": "https://garden-grove-55904.web.app/",
+          "aria": "garden-grove",
+          "icon": "WebSVG"
+        },
+        {
+          "href": "https://github.com/AbhashK1/Garden-Grove",
+          "aria": "github",
+          "icon": "GITSVG"
+        }
+      ]
+    },
+    {
+      "title": "ImageRevive",
+      "jpg": "./images/imagerev.jpg",
+      "avif": "./images/imagerev.avif",
+      "webp": "./images/imagerev.webp",
+      "text": "A Python-based desktop application focused on restoring and colorizing old, damaged images. Uses custom function with advanced image processing techniques (Gaussian blurring, Sobel filtering, morphological transformations, and inpainting with OpenCV) to detect and remove scratches, dust, and blemishes from grayscale and color images.",
+      "buttons": [
+        {
+          "href": "https://github.com/AbhashK1/Image-Restoration-Framework",
+          "aria": "github",
+          "icon": "GITSVG"
+        }
+      ]
+    },
+    {
+      "title": "SongBot",
+      "jpg": "./images/sbot.jpg",
+      "avif": "./images/sbot.avif",
+      "webp": "./images/sbot.webp",
+      "text": "A Chatbot based Song Recommendation System with an Angular frontend, showcasing a sleek and responsive user interface. Uses a custom Flask API to achieve an average response time of less than 100ms, empowered by TensorFlow for natural language processing (NLP), enabling dynamic chat responses and genre based song recommendations by utilizing Spotify dataset.",
+      "buttons": [
+        {
+          "href": "https://songbot-4bc7d.web.app/",
+          "aria": "SongBot",
+          "icon": "WebSVG"
+        },
+        {
+          "href": "https://github.com/AbhashK1/Songbot",
+          "aria": "github",
+          "icon": "GITSVG"
+        }
+      ]
+    }
+  ]
+}
