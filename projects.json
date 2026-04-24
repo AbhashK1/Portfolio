@@ -19,7 +19,7 @@
       "jpg": "./images/gg.jpeg",
       "avif": "./images/gg.avif",
       "webp": "./images/gg.webp",
-      "text": "A comprehensive platform for managing a vegetable market system with authentication, secure payments, cart management, and real-time tracking of inventory, sales, and customer data. Built with a user-friendly React frontend and a robust Node.js + Express backend managing MongoDB inventory, it also integrates a Flask-based scraper for live vegetable prices in India and an LSTM model (95%+ accuracy) for price forecasting",
+      "text": "A comprehensive platform for managing a vegetable market system with authentication, secure payments, cart management, and real-time tracking of inventory, sales, and customer data. Built with a user-friendly React frontend and a robust Node.js + Express backend managing MongoDB inventory, it also integrates a Flask-based scraper for live vegetable prices in India and an LSTM model (95%+ accuracy) for price forecasting.",
       "buttons": [
         {
           "href": "https://garden-grove-55904.web.app/",
@@ -28,6 +28,20 @@
         },
         {
           "href": "https://github.com/AbhashK1/Garden-Grove",
+          "aria": "github",
+          "icon": "GITSVG"
+        }
+      ]
+    },
+    {
+      "title": "Distributed Order Management System",
+      "jpg": "./images/doms.jpeg",
+      "avif": "./images/doms.avif",
+      "webp": "./images/doms.webp",
+      "text": "A real-world, event-driven microservices system that models how large e-commerce platforms process orders using Kafka, Redis, and Spring Boot. This project demonstrates how independent services communicate asynchronously to handle order creation, inventory reservation, payment processing, and customer notifications.",
+      "buttons": [
+        {
+          "href": "https://github.com/AbhashK1/Distributed-Order-Management-System",
           "aria": "github",
           "icon": "GITSVG"
         }

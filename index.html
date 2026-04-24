@@ -600,6 +600,13 @@
           height: 40px;
         }
 
+        .timeline-icon-nw {
+          background: #3a1052; 
+          border-radius: 50%; 
+          width: 40px;      
+          height: 40px;
+        }
+
         .tooltip {
           position: relative;
           display: inline-block;
@@ -1001,6 +1008,22 @@
         <div class="timeline">
       
         <div class="timeline-element">
+          <span class="timeline-element-icon geulogo" style="background-color: #3a1052; color: #fff;">
+            <img src="svg/nw.png" alt="logo" class="timeline-icon-nw">  
+          </span>
+          <div class="timeline-element-content">
+            <h4>Software Engineer</h4>
+            
+            <h5>NatWest</h5>
+            
+            <div>
+              <p>I joined NatWest as a Software Engineer, where I develop and maintain <strong>backend services</strong> and <strong>internal tools</strong> using <strong>Python</strong>, leveraging frameworks like <strong>FastAPI and Streamlit</strong> to build scalable and user-friendly applications. I contribute to <strong>designing and implementing APIs</strong>, improving system performance, and ensuring code quality through testing and best practices. I also collaborate with cross-functional teams to deliver reliable product features, enhance user experience, and support ongoing development and deployment processes.</p>
+            </div>
+            <span class="timeline-element-date">April 2026</span>
+          </div>
+        </div>
+
+        <div class="timeline-element">
           <span class="timeline-element-icon geulogo" style="background-color: #fff; color: #fff;">
             <img src="svg/acc.png" alt="logo" class="timeline-icon-acc">  
           </span>
@@ -1010,12 +1033,7 @@
             <h5>Accenture</h5>
             
             <div>
-              <p>I joined Accenture as an Associate Software Engineer, where I am
-                responsible for implementing business logic and customer requirements
-                in <strong>Java</strong> on <strong>Oracle ASAP</strong> for the client’s
-                Service Activation Platform. This role has allowed me to apply
-                problem-solving and development skills in a real-world enterprise
-                environment while contributing to impactful business solutions.</p>
+              <p>I joined Accenture as an Associate Software Engineer, where I implemented and deployed backend enhancements (Change Requests) for a telecom client’s <strong>service activation platform</strong> using <strong>Java on Oracle ASAP</strong>. I optimized service workflows by refining business logic modules, improving processing efficiency and reducing execution latency, and developed an <strong>automated regression testing suite</strong> covering <strong>150+</strong> scenarios, reducing production <strong>defects</strong> by <strong>30%</strong> and enhancing release reliability. I also built automation tools to streamline testing and validation processes, reducing manual effort and improving operational efficiency.</p>
             </div>
             <span class="timeline-element-date">September 2024</span>
           </div>
@@ -1031,8 +1049,8 @@
             <h5>Completed Undergraduate Studies.</h5>
             
             <div>
-              <p>Successfully completed my B.Tech in CS, graduating with a
-                CGPA of 9.12/10. This milestone reflects not only my academic
+              <p>Successfully completed my <strong>B.Tech in CS</strong>, graduating with a
+                <strong>CGPA of 9.12/10</strong>. This milestone reflects not only my academic
                 performance but also the hands-on experience I gained through
                 projects, internships, and research contributions.</p>
             </div>
@@ -1202,7 +1220,7 @@
           }, 10);
 
           const text =
-            "Hi, I’m Abhash Kumar — a Computer Science graduate, currently working at Accenture Gurugram, where I develop scalable solutions on the Oracle ASAP platform. My passion lies in building smart, efficient systems — from full-stack web applications to AI-powered frameworks.";
+            "Hi, I’m Abhash Kumar — a Computer Science graduate and Software Engineer, currently working at NatWest, where I build scalable backend services and internal tools using Python. My interests lie in developing efficient, reliable systems — from full-stack web applications to data-driven and AI-powered solutions.";
 
           const words = text.split(' ');
           this.words_els = [];
